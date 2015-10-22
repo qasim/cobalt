@@ -1,35 +1,25 @@
-Cobalt @ UofT [![Slack][slackin-badge]][slackin] [![Circle CI][circleci-badge]][circleci]
+Cobalt @ UofT [<img src="https://avatars0.githubusercontent.com/u/10912859" width="24" height="24" />](https://cobalt.qas.im) [![Slack][slackin-badge]][slackin]
 =============
-This is a service that is currently in development, led by [Qasim Iqbal](https://github.com/Qasim) and [Ivan Zhang](https://github.com/ivanzhangsolutions).
+Cobalt provides a collection of open data APIs that allow anyone to interface with public information from the University of Toronto in their applications or services.
 
-The mission is to provide a collection of RESTful web APIs that can allow developers to create applications or services that utilize public data from the University of Toronto.
+[Sign up](https://cobalt.qas.im/signup) to use the APIs immediately, or run Cobalt on your own server by following the [Self hosting](https://cobalt.qas.im/docs/getting-started/self-hosting) guide.
 
-Web APIs
+To learn more about how to use Cobalt in your software, take a look at the [Getting started](https://cobalt.qas.im/docs/getting-started/introduction) guide.
+
+APIs
 ----------
-The APIs are being made to be easy to understand and very comprehensive in what it can provide to a developer. In order to achieve this, we are actively contacting developers at UofT to see what use cases are needed in each API. Along with this, market research is performed to allow us to understand the viability of certain end points. We are working on the following web APIs for Cobalt:
+[Courses](https://cobalt.qas.im/docs/course-api/introduction): Undergraduate course API with up to date calendar and timetable information.
 
-  - [UofT Course API](https://github.com/cobalt-io/uoft-course-api)
-  - [UofT Building API](https://github.com/cobalt-io/uoft-building-api)
-  - [UofT Food API](https://github.com/cobalt-io/uoft-food-api)
+[Buildings](https://cobalt.qas.im/docs/building-api/introduction): Campus building API with geographic location information.
 
-We encourage your feedback on our progress!
+If you have an idea for a web API that would be a good fit for Cobalt, please let the community know by opening an issue on this GitHub repository.
 
-Web Scrapers
----------------
-The databases are being developed to allow for fully automated curation. In order to do this, an intricate [scraping module](https://github.com/cobalt-io/uoft-scrapers) is also in development. We are working on scrapers for the following web services that are provided by UofT:
 
- - [Course Finder](http://coursefinder.utoronto.ca/)
- - [A&S Fall/Winter Timetable](http://www.artsandscience.utoronto.ca/ofr/timetable/winter/sponsors.htm) + [A&S Summer Timetable](http://www.artsandscience.utoronto.ca/ofr/timetable/summer/sponsors.htm)
- - [UTM Timetable Planner](https://student.utm.utoronto.ca/timetable/)
- - [UTSC Course Timetable](http://www.utsc.utoronto.ca/~registrar/scheduling/timetable)
- - [UofT Map](http://map.utoronto.ca)
-
-Wiki
+Contributing
 ----
 
-Check out the [wiki](https://github.com/cobalt-io/cobalt/wiki) for developer information.
+You're encouraged to help contribute towards making this service better. Learn more by reading the [contributing](https://cobalt.qas.im/docs/getting-started/contributing) guide.
 
 [slackin]: https://cobalt-slack.herokuapp.com/
 [slackin-badge]: https://cobalt-slack.herokuapp.com/badge.svg
-[circleci]: https://circleci.com/gh/cobalt-io/cobalt
-[circleci-badge]: https://circleci.com/gh/cobalt-io/cobalt.svg?style=svg
+
